@@ -1,0 +1,18 @@
+# Next.js (product-next-web-app/)
+product-next-web-app/.next/
+product-next-web-app/out/
+product-next-web-app/*.next.cache
+product-next-web-app/build/
+product-next-web-app/builds/
+product-next-web-app/coverage/
+product-next-web-app/node_modules/
+product-next-web-app/package-lock.json
+product-next-web-app/yarn.lock
+
+# Node.js API (node_api/)
+node_api/node_modules/
+node_api/npm-debug.log*
+node_api/yarn-debug.log*
+node_api/yarn-error.log*
+node_api/package-lock.json
+node_api/yarn.lock
