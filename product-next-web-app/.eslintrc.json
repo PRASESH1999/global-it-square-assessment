@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": 2024,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["node_modules", "build", "dist", "public"],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "no-unused-vars": ["warn"],
+    "eqeqeq": ["warn", "always"],
+    "prettier/prettier": "error"
+    // Add more custom rules as needed
+  }
+}
